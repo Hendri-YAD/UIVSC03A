@@ -1,6 +1,6 @@
 ﻿namespace UIVSC03A
 {
-    partial class Form1
+    partial class Form3
     {
         /// <summary>
         /// Required designer variable.
@@ -31,22 +31,24 @@
             this.uI6_1 = new UIVSC03A.UI6_1();
             this.SuspendLayout();
             // 
-            // uI6_11
+            // uI6_21
             // 
-            this.uI6_1.Location = new System.Drawing.Point(193, 96);
-            this.uI6_1.Name = "uI6_11";
-            this.uI6_1.Size = new System.Drawing.Size(75, 23);
+            this.uI6_1.AutoSize = true;
+            this.uI6_1.Location = new System.Drawing.Point(209, 129);
+            this.uI6_1.Name = "uI6_21";
+            this.uI6_1.Size = new System.Drawing.Size(190, 149);
             this.uI6_1.TabIndex = 0;
             // 
-            // Form1
+            // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(558, 579);
+            this.ClientSize = new System.Drawing.Size(555, 422);
             this.Controls.Add(this.uI6_1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Form3";
+            this.Text = "Form3";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -55,4 +57,3 @@
         private UI6_1 uI6_1;
     }
 }
-
